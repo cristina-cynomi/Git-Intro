@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #bb2121;
+    background-color: #f4e6cc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,8 @@ body {
     width: 320px;
     min-height: 480px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-title {
@@ -47,6 +49,7 @@ body {
 
 .card-content {
     margin-bottom: 32px;
+    flex: 1;
 }
 
 .includes-text {
